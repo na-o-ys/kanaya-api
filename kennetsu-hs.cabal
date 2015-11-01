@@ -21,6 +21,7 @@ executable kennetsu-hs
   -- other-extensions:    
   build-depends:       base >=4.8 && <4.9,
                        monad-control,
+                       monad-logger,
                        mtl,
                        text,
                        http-types,
