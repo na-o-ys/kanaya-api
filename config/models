@@ -1,8 +1,3 @@
-User json
-    email      Text
-    password   Text Maybe
-    UniqueUser email
-    deriving   Show
-
-Comment json
-    body Text
+Memo json
+    body     Text
+    deriving Show

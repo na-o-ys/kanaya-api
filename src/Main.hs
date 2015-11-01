@@ -6,8 +6,8 @@
 import           Control.Monad.Logger
 import qualified Web.Scotty              as S
 import qualified Database.Persist.Sqlite as P
-import           Model
 import           Api
+import           Model
 
 createConn = runNoLoggingT $
              P.createSqlitePool "db/development.sqlite3" 5
